@@ -27,12 +27,12 @@ let varObj = {
 let varArr = [5, "XYZ", 5.6, true];
 let varStr = "HELLO";
 
-console.log(varInt + " is a " + typeof varInt + " type of variable");
-console.log(varFlt + " is a " + typeof varFlt + " type of variable");
-console.log(varStr + " is a " + typeof varStr + " type of variable");
-console.log(varBool + " is a " + typeof varBool + " type of variable");
-console.log(varObj + " is a " + typeof varObj + " type of variable");
-console.log(varArr + " is a " + typeof varArr + " type of variable");
+console.log(varInt + " is a " + typeof varInt + " type of variable"); // 1 is a number type of variable
+console.log(varFlt + " is a " + typeof varFlt + " type of variable"); // 1.5 is a number type of variable
+console.log(varStr + " is a " + typeof varStr + " type of variable"); // HELLO is a string type of variable
+console.log(varBool + " is a " + typeof varBool + " type of variable"); // true is a boolean type of variable
+console.log(varObj + " is a " + typeof varObj + " type of variable"); // [object Object] is a object type of variable
+console.log(varArr + " is a " + typeof varArr + " type of variable"); // 5,XYZ,5.6,true is a object type of variable
 
 // Activity 4 :: ----------------------------------------------------------
 
